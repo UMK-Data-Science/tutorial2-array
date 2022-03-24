@@ -12,7 +12,13 @@ print array value for index 2 and output the text as
 //main function section 
 int main(){
     int myArray[5] = {2,4,6,8,10};
-    
+    int i = 0; 
+
+    for (i = 0; i < 5; i++){
+        //printf("value for index %d is %d \n", i, myArray[i]);
+    }
+
+    return 0;
 
 }
 

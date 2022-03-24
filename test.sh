@@ -2,7 +2,7 @@ echo "Running tests..."
 echo
 
 output=$(./a.out)
-expected_output="Value in index 2 is 6"
+expected_output="value in index %d is %d"
 
 if [ $? -eq 0 ] ; then
   echo "Pass: Program exited zero"
